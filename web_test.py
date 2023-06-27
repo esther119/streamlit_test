@@ -40,19 +40,47 @@ if "past" not in st.session_state:
 
 
 def get_text():
-    input_text = st.text_input("You: ", "Hello, how are you?", key="input")
+    input_text = st.text_input("You: ", "Write a blog about first principles", key="input")
     return input_text
-
 
 user_input = get_text()
 
+def similarity_search(user_input):
+    docs = chain.similarity_search(user_input)
+    return docs[0].page_content
+
+
+
+def AI_response_messages(user_input, store, openai_api_key):
+    template ='''
+    Use the following pieces of context from waitbutwhy to answer the question at the end. 
+    If you don't know the answer, just clarify that you are not sure, but this might be how Tim Urban thinks.
+    '''
+    engineered_user_input = '''{user_input} within 300 words like waitbutwhy using "you" in a casual language'''    
+    from langchain.schema import (
+        AIMessage,
+        HumanMessage,
+        SystemMessage
+    )
+    from langchain.chat_models import ChatOpenAI
+    chat = ChatOpenAI(model_name='gpt-3.5-turbo-16k-0613', openai_api_key=openai_api_key)   
+
+
+    messages = [
+        SystemMessage(content=template+store),
+        HumanMessage(content=user_input)
+    ]
+    response=chat(messages)
+
+    return response
+
 if user_input:
     if user_input:
-        docs = chain.similarity_search(user_input)
-        output = docs[0].page_content
-
+        store = similarity_search(user_input)
+        response = AI_response_messages(user_input, store, st.secrets['openai_api_key'])
+    print(store)
     st.session_state.past.append(user_input)
-    st.session_state.generated.append(output)
+    st.session_state.generated.append(response.content)
 
 if st.session_state["generated"]:
 
