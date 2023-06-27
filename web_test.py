@@ -68,7 +68,7 @@ def AI_response_messages(user_input, store, openai_api_key):
 
     messages = [
         SystemMessage(content=template+store),
-        HumanMessage(content=user_input)
+        HumanMessage(content=engineered_user_input)
     ]
     response=chat(messages)
 
