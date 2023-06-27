@@ -9,10 +9,8 @@ from langchain.vectorstores import Pinecone
 from langchain.chains import ConversationChain
 from langchain.llms import OpenAI
 
-embeddings = OpenAIEmbeddings()
+embeddings = OpenAIEmbeddings(disallowed_special=(), openai_api_key=st.secrets['open_api_key'])
 
-
-# pinecone_api_key = pinecone_api.pinecone_api_key
 
 
 pinecone.init(
