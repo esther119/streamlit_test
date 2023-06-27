@@ -1,0 +1,281 @@
+2) Here’s a G-rated version of the post, appropriate for all ages (with its own URL, so safe to share too).
+
+3) Extra big thanks to our Patreon supporters for making WBW sustainable and for being immensely patient during the long wait.
+
+___________
+
+Welcome to the last post in the series on the world of Elon Musk.
+
+It’s been a long one, I know. A long series with long posts and a long time between posts. It turns out that when it comes to Musk and his shit, there was a lot to say.
+
+Anyone who’s read the first three posts in this series is aware that I’ve not only been buried in the things Musk is doing, I’ve been drinking a tall glass of the Elon Musk Kool-Aid throughout. I’m very, very into it.
+
+I kind of feel like that’s fine, right? The dude is a steel-bending industrial giant in America in a time when there aren’t supposed to be steel-bending industrial giants in America, igniting revolutions in huge, old industries that aren’t supposed to be revolutionable. After emerging from the 1990s dotcom party with $180 million, instead of sitting back in his investor chair listening to pitches from groveling young entrepreneurs, he decided to start a brawl with a group of 900-pound sumo wrestlers—the auto industry, the oil industry, the aerospace industry, the military-industrial complex, the energy utilities—and he might actually be winning. And all of this, it really seems, for the purpose of giving our species a better future.
+
+Pretty Kool-Aid worthy. But someone being exceptionally rad isn’t Kool-Aid worthy enough to warrant 90,000 words over a string of months on a blog that’s supposed to be about a wide range of topics.
+
+During the first post, I laid out the two objectives for the series:
+
+1) To understand why Musk is doing what he’s doing.
+
+2) To understand why Musk is able to do what he’s doing.
+
+So far, we’ve spent most of the time exploring objective #1. But what really intrigued me as I began thinking about this was objective #2. I’m fascinated by those rare people in history who manage to dramatically change the world during their short time here, and I’ve always liked to study those people and read their biographies. Those people know something the rest of us don’t, and we can learn something valuable from them. Getting access to Elon Musk gave me what I decided was an unusual chance to get my hands on one of those people and examine them up close. If it were just Musk’s money or intelligence or ambition or good intentions that made him so capable, there would be more Elon Musks out there. No, it’s something else—what TED curator Chris Anderson called Musk’s “secret sauce”—and for me, this series became a mission to figure it out.
+
+The good news is, after a lot of time thinking about this, reading about this, and talking to him and his staff, I think I’ve got it. What for a while was a large pile of facts, observations, and sound bites eventually began to congeal into a common theme—a trait in Musk that I believe he shares with many of the most dynamic icons in history and that separates him from almost everybody else.
+
+As I worked through the Tesla and SpaceX posts, this concept kept surfacing, and it became clear to me that this series couldn’t end without a deep dive into exactly what it is that Musk and a few others do so unusually well. The thing that tantalized me is that this secret sauce is actually accessible to everyone and right there in front of us—if we can just wrap our heads around it. Mulling this all over has legitimately affected the way I think about my life, my future, and the choices I make—and I’m going to try my best in this post to explain why.
+
+___________
+
+Two Kinds of Geology
+
+In 1681, English theologian Thomas Burnet published Sacred Theory of the Earth, in which he explained how geology worked. What happened was, around 6,000 years ago, the Earth was formed as a perfect sphere with a surface of idyllic land and a watery interior. But then, when the surface dried up a little later, cracks formed in its surface, releasing much of the water from within. The result was the Biblical Deluge and Noah having to deal with a ton of shit all week. Once things settled down, the Earth was no longer a perfect sphere—all the commotion had distorted the surface, bringing about mountains and valleys and caves down below, and the whole thing was littered with the fossils of the flood’s victims.
+
+And bingo. Burnet had figured it out. The great puzzle of fundamental theology had been to reconcile the large number of seemingly-very-old Earth features with the much shorter timeline of the Earth detailed in the Bible. For theologians of the time, it was their version of the general relativity vs. quantum mechanics quandary, and Burnet had come up with a viable string theory to unify it all under one roof.
+
+It wasn’t just Burnet. There were enough theories kicking around reconciling geology with the verses of the Bible to today warrant a 15,000-word “Flood Geology” Wikipedia page.
+
+Around the same time, another group of thinkers started working on the geology puzzle: scientists.
+
+For the theologian puzzlers, the starting rules of the game were, “Fact: the Earth began 6,000 years ago and there was at one point an Earth-sweeping flood,” and their puzzling took place strictly within that context. But the scientists started the game with no rules at all. The puzzle was a blank slate where any observations and measurements they found were welcome.
+
+Over the next 300 years, the scientists built theory upon theory, and as new technologies brought in new types of measurements, old theories were debunked and replaced with new updated versions. The science community kept surprising themselves as the apparent age of the Earth grew longer and longer. In 1907, there was a huge breakthrough when American scientist Bertram Boltwood pioneered the technique of deciphering the age of rocks through radiometric dating, which found elements in a rock with a known rate of radioactive decay and measured what portion of those elements remained intact and what portion had already converted to decay substance.
+
+Radiometric dating blew Earth’s history backwards into the billions of years, which burst open new breakthroughs in science like the theory of Continental Drift, which in turn led to the theory of Plate Tectonics. The scientists were on a roll.
+
+Meanwhile, the flood geologists would have none of it. To them, any conclusions from the science community were moot because they were breaking the rules of the game to begin with. The Earth was officially less than 6,000 years old, so if radiometric dating showed otherwise, it was a flawed technique, period.
+
+But the scientific evidence grew increasingly compelling, and as time wore on, more and more flood geologists threw in the towel and accepted the scientist’s viewpoint-maybe they had had the rules of the game wrong.
+
+Some, though, held strong. The rules were the rules, and it didn’t matter how many people agreed that the Earth was billions of years old—it was a grand conspiracy.
+
+Today, there are still many flood geologists making their case. Just recently, an author named Tom Vail wrote a book called Grand Canyon: A Different View, in which he explains:
+
+Contrary to what is widely believed, radioactive dating has not proven the rocks of the Grand Canyon to be millions of years old. The vast majority of the sedimentary layers in the Grand Canyon were deposited as the result of a global flood that occurred after and as a result of the initial sin that took place in the Garden of Eden.
+
+___________
+
+If the website analytics stats on Chartbeat included a “Type of Geologist” demographic metric, I imagine that for Wait But Why readers, the breakdown would look something like this:
+
+The Cook and the Chef: Musk’s Secret Sauce
+ November 6, 2015 By Tim Urban
+
+This is the last part of a four-part series on Elon Musk’s companies. For an explanation of why this series is happening and how Musk is involved, start with Part 1.11 ← also click these
+
+Three quick notes:
+
+1) PDF and ebook options: We made a fancy PDF of this post for printing and offline viewing (see a preview here), and an ebook containing the whole four-part Elon Musk series:
+
+Buy the PDFget the ebook
+
+2) Here’s a G-rated version of the post, appropriate for all ages (with its own URL, so safe to share too).
+
+3) Extra big thanks to our Patreon supporters for making WBW sustainable and for being immensely patient during the long wait.
+
+___________
+
+Welcome to the last post in the series on the world of Elon Musk.
+
+It’s been a long one, I know. A long series with long posts and a long time between posts. It turns out that when it comes to Musk and his shit, there was a lot to say.
+
+Anyone who’s read the first three posts in this series is aware that I’ve not only been buried in the things Musk is doing, I’ve been drinking a tall glass of the Elon Musk Kool-Aid throughout. I’m very, very into it.
+
+I kind of feel like that’s fine, right? The dude is a steel-bending industrial giant in America in a time when there aren’t supposed to be steel-bending industrial giants in America, igniting revolutions in huge, old industries that aren’t supposed to be revolutionable. After emerging from the 1990s dotcom party with $180 million, instead of sitting back in his investor chair listening to pitches from groveling young entrepreneurs, he decided to start a brawl with a group of 900-pound sumo wrestlers—the auto industry, the oil industry, the aerospace industry, the military-industrial complex, the energy utilities—and he might actually be winning. And all of this, it really seems, for the purpose of giving our species a better future.
+
+Pretty Kool-Aid worthy. But someone being exceptionally rad isn’t Kool-Aid worthy enough to warrant 90,000 words over a string of months on a blog that’s supposed to be about a wide range of topics.
+
+During the first post, I laid out the two objectives for the series:
+
+1) To understand why Musk is doing what he’s doing.
+
+2) To understand why Musk is able to do what he’s doing.
+
+So far, we’ve spent most of the time exploring objective #1. But what really intrigued me as I began thinking about this was objective #2. I’m fascinated by those rare people in history who manage to dramatically change the world during their short time here, and I’ve always liked to study those people and read their biographies. Those people know something the rest of us don’t, and we can learn something valuable from them. Getting access to Elon Musk gave me what I decided was an unusual chance to get my hands on one of those people and examine them up close. If it were just Musk’s money or intelligence or ambition or good intentions that made him so capable, there would be more Elon Musks out there. No, it’s something else—what TED curator Chris Anderson called Musk’s “secret sauce”—and for me, this series became a mission to figure it out.
+
+The good news is, after a lot of time thinking about this, reading about this, and talking to him and his staff, I think I’ve got it. What for a while was a large pile of facts, observations, and sound bites eventually began to congeal into a common theme—a trait in Musk that I believe he shares with many of the most dynamic icons in history and that separates him from almost everybody else.
+
+As I worked through the Tesla and SpaceX posts, this concept kept surfacing, and it became clear to me that this series couldn’t end without a deep dive into exactly what it is that Musk and a few others do so unusually well. The thing that tantalized me is that this secret sauce is actually accessible to everyone and right there in front of us—if we can just wrap our heads around it. Mulling this all over has legitimately affected the way I think about my life, my future, and the choices I make—and I’m going to try my best in this post to explain why.
+
+___________
+
+Two Kinds of Geology
+
+In 1681, English theologian Thomas Burnet published Sacred Theory of the Earth, in which he explained how geology worked. What happened was, around 6,000 years ago, the Earth was formed as a perfect sphere with a surface of idyllic land and a watery interior. But then, when the surface dried up a little later, cracks formed in its surface, releasing much of the water from within. The result was the Biblical Deluge and Noah having to deal with a ton of shit all week. Once things settled down, the Earth was no longer a perfect sphere—all the commotion had distorted the surface, bringing about mountains and valleys and caves down below, and the whole thing was littered with the fossils of the flood’s victims.
+
+And bingo. Burnet had figured it out. The great puzzle of fundamental theology had been to reconcile the large number of seemingly-very-old Earth features with the much shorter timeline of the Earth detailed in the Bible. For theologians of the time, it was their version of the general relativity vs. quantum mechanics quandary, and Burnet had come up with a viable string theory to unify it all under one roof.
+
+It wasn’t just Burnet. There were enough theories kicking around reconciling geology with the verses of the Bible to today warrant a 15,000-word “Flood Geology” Wikipedia page.
+
+Around the same time, another group of thinkers started working on the geology puzzle: scientists.
+
+For the theologian puzzlers, the starting rules of the game were, “Fact: the Earth began 6,000 years ago and there was at one point an Earth-sweeping flood,” and their puzzling took place strictly within that context. But the scientists started the game with no rules at all. The puzzle was a blank slate where any observations and measurements they found were welcome.
+
+Over the next 300 years, the scientists built theory upon theory, and as new technologies brought in new types of measurements, old theories were debunked and replaced with new updated versions. The science community kept surprising themselves as the apparent age of the Earth grew longer and longer. In 1907, there was a huge breakthrough when American scientist Bertram Boltwood pioneered the technique of deciphering the age of rocks through radiometric dating, which found elements in a rock with a known rate of radioactive decay and measured what portion of those elements remained intact and what portion had already converted to decay substance.
+
+Radiometric dating blew Earth’s history backwards into the billions of years, which burst open new breakthroughs in science like the theory of Continental Drift, which in turn led to the theory of Plate Tectonics. The scientists were on a roll.
+
+Meanwhile, the flood geologists would have none of it. To them, any conclusions from the science community were moot because they were breaking the rules of the game to begin with. The Earth was officially less than 6,000 years old, so if radiometric dating showed otherwise, it was a flawed technique, period.
+
+But the scientific evidence grew increasingly compelling, and as time wore on, more and more flood geologists threw in the towel and accepted the scientist’s viewpoint-maybe they had had the rules of the game wrong.
+
+Some, though, held strong. The rules were the rules, and it didn’t matter how many people agreed that the Earth was billions of years old—it was a grand conspiracy.
+
+Today, there are still many flood geologists making their case. Just recently, an author named Tom Vail wrote a book called Grand Canyon: A Different View, in which he explains:
+
+Contrary to what is widely believed, radioactive dating has not proven the rocks of the Grand Canyon to be millions of years old. The vast majority of the sedimentary layers in the Grand Canyon were deposited as the result of a global flood that occurred after and as a result of the initial sin that took place in the Garden of Eden.
+
+___________
+
+If the website analytics stats on Chartbeat included a “Type of Geologist” demographic metric, I imagine that for Wait But Why readers, the breakdown would look something like this:
+
+Geology Breakdown
+
+It makes sense. Whether religious or not, most people who read this site are big on data, evidence, and accuracy. I’m reminded of this every time I make an error in a post.
+
+Whatever role faith plays in the spiritual realm, what most of us agree on is that when seeking answers to our questions about the age of the Earth, the history of our species, the causes of lightning, or any other physical phenomenon in the universe, data and logic are far more effective tools than faith and scripture.
+
+And yet—after thinking about this for a while, I’ve come to an unpleasant conclusion:
+
+When it comes to most of the way we think, the way we make decisions, and the way we live our lives, we’re much more like the flood geologists than the science geologists.
+
+And Elon’s secret? He’s a scientist through and through.
+
+Hardware and Software
+
+The first clue to the way Musk thinks is in the super odd way that he talks. For example:
+
+Human child: “I’m scared of the dark, because that’s when all the scary shit is gonna get me and I won’t be able to see it coming.”
+
+Elon: “When I was a little kid, I was really scared of the dark. But then I came to understand, dark just means the absence of photons in the visible wavelength—400 to 700 nanometers. Then I thought, well it’s really silly to be afraid of a lack of photons. Then I wasn’t afraid of the dark anymore after that.”2
+
+Or:
+
+Human father: “I’d like to start working less because my kids are starting to grow up.”
+
+Elon: “I’m trying to throttle back, because particularly the triplets are starting to gain consciousness. They’re almost two.”3
+
+Or:
+
+Human single man: “I’d like to find a girlfriend. I don’t want to be so busy with work that I have no time for dating.”
+
+Elon: “I would like to allocate more time to dating, though. I need to find a girlfriend. That’s why I need to carve out just a little more time. I think maybe even another five to 10 — how much time does a woman want a week? Maybe 10 hours? That’s kind of the minimum? I don’t know.”4
+
+I call this MuskSpeak. MuskSpeak is a language that describes everyday parts of life as exactly what they actually, literally are.
+
+There are plenty of instances of technical situations when we all agree that MuskSpeak makes much more sense than normal human parlance—
+—but what makes Musk odd is that he thinks about most things in MuskSpeak, including many areas where you don’t usually find it. Like when I asked him if he was afraid of death, and he said having kids made him more comfortable with dying, because “kids sort of are a bit you. At least they’re half you. They’re half you at the hardware level, and depending on how much time you have with them, they’re that percentage of you at the software level.”
+
+When you or I look at kids, we see small, dumb, cute people. When Musk looks at his five kids, he sees five of his favorite computers. When he looks at you, he sees a computer. And when he looks in the mirror, he sees a computer—his computer. It’s not that Musk suggests that people are just computers—it’s that he sees people as computers on top of whatever else they are.
+
+And at the most literal level, Elon’s right about people being computers. At its simplest definition, a computer is an object that can store and process data—which the brain certainly is.
+
+And while this isn’t the most poetic way to think about our minds, I’m starting to believe that it’s one of those areas of life where MuskSpeak can serve us well—because thinking of a brain as a computer forces us to consider the distinction between our hardware and our software, a distinction we often fail to recognize.
+
+For a computer, hardware is defined as “the machines, wiring, and other physical components of a computer.” So for a human, that’s the physical brain they were born with and all of its capabilities, which determines their raw intelligence, their innate talents, and other natural strengths and shortcomings.
+A computer’s software is defined as “the programs and other operating information used by a computer.” For a human, that’s what they know and how they think—their belief systems, thought patterns, and reasoning methods. Life is a flood of incoming data of all kinds that enter the brain through our senses, and it’s the software that assesses and filters all that input, processes and organizes it, and ultimately uses it to generate the key output—a decision.
+The hardware is a ball of clay that’s handed to us when we’re born. And of course, not all clay is equal—each brain begins as a unique combination of strengths and weaknesses across a wide range of processes and capabilities.
+
+But it’s the software that determines what kind of tool the clay gets shaped into.
+
+When people think about what makes someone like Elon Musk so effective, they often focus on the hardware—and Musk’s hardware has some pretty impressive specs. But the more I learn about Musk and other people who seem to have superhuman powers—whether it be Steve Jobs, Albert Einstein, Henry Ford, Genghis Khan, Marie Curie, John Lennon, Ayn Rand,2 or Louis C.K.—the more I’m convinced that it’s their software, not their natural-born intelligence or talents, that makes them so rare and so effective.
+
+So let’s talk about software—starting with Musk’s. As I wrote the other three posts in this series, I looked at everything I was learning about Musk—the things he says, the decisions he makes, the missions he takes on and how he approaches them—as clues to how his underlying software works.
+
+Eventually, the clues piled up and the shape of the software began to reveal itself. Here’s what I think it looks like:
+
+Elon’s Software
+
+The structure of Musk’s software starts like many of ours, with what we’ll call the Want box:
+
+Software - Want Box
+
+This box contains anything in life where you want Situation A to turn into Situation B. Situation A is currently what’s happening and you want something to change so that Situation B is what’s happening instead. Some examples:
+
+Wants
+
+Next, the Want box has a partner in crime—what we’ll call the Reality box. It contains all things that are possible:
+
+Software - Reality Box
+
+Pretty straightforward.
+
+The overlap of the Want and Reality boxes is the Goal Pool, where your goal options live:3
+
+Software - Goal Pool
+
+So you pick a goal from the pool—the thing you’re going to try to move from Point A to Point B.
+
+And how do you cause something to change? You direct your power towards it. A person’s power can come in various forms: your time, your energy (mental and physical), your resources, your persuasive ability, your connection to others, etc.
+
+The concept of employment is just Person A using their resources power (a paycheck) to direct Person B’s time and/or energy power toward Person A’s goal. When Oprah publicly recommends a book, that’s combining her abundant power of connection (she has a huge reach) and her abundant power of persuasion (people trust her) and directing them towards the goal of getting the book into the hands of thousands of people who would have otherwise never known about it.
+
+Once a goal has been selected, you know the direction in which to point your power. Now it’s time to figure out the most effective way to use that power to generate the outcome you want—that’s your strategy:
+
+Software - Strategy Box
+
+Simple right? And probably not that different from how you think.
+
+But what makes Musk’s software so effective isn’t its structure, it’s that he uses it like a scientist. Carl Sagan said, “Science is a way of thinking much more than it is a body of knowledge,” and you can see Musk apply that way of thinking in two key ways:
+
+1) He builds each software component himself, from the ground up.
+
+Musk calls this “reasoning from first principles.” I’ll let him explain:
+
+I think generally people’s thinking process is too bound by convention or analogy to prior experiences. It’s rare that people try to think of something on a first principles basis. They’ll say, “We’ll do that because it’s always been done that way.” Or they’ll not do it because “Well, nobody’s ever done that, so it must not be good.” But that’s just a ridiculous way to think. You have to build up the reasoning from the ground up—“from the first principles” is the phrase that’s used in physics. You look at the fundamentals and construct your reasoning from that, and then you see if you have a conclusion that works or doesn’t work, and it may or may not be different from what people have done in the past.5
+
+In science, this means starting with what evidence shows us to be true. A scientist doesn’t say, “Well we know the Earth is flat because that’s the way it looks, that’s what’s intuitive, and that’s what everyone agrees is true,” a scientist says, “The part of the Earth that I can see at any given time appears to be flat, which would be the case when looking at a small piece of many differently shaped objects up close, so I don’t have enough information to know what the shape of the Earth is. One reasonable hypothesis is that the Earth is flat, but until we have tools and techniques that can be used to prove or disprove that hypothesis, it is an open question.”
+
+A scientist gathers together only what he or she knows to be true—the first principles—and uses those as the puzzle pieces with which to construct a conclusion.
+
+Reasoning from first principles is a hard thing to do in life, and Musk is a master at it. Brain software has four major decision-making centers:
+
+1) Filling in the Want box
+
+2) Filling in the Reality box
+
+3) Goal selection from the Goal Pool
+
+4) Strategy formation
+
+Musk works through each of these boxes by reasoning from first principles. Filling in the Want box from first principles requires a deep, honest, and independent understanding of yourself. Filling in the Reality box requires the clearest possible picture of the actual facts of both the world and your own abilities. The Goal Pool should double as a Goal Selection Laboratory that contains tools for intelligently measuring and weighing options. And strategies should be formed based on what you know, not on what is typically done.
+
+2) He continually adjusts each component’s conclusions as new information comes in.
+
+You might remember doing proofs in geometry class, one of the most mundane parts of everyone’s childhood. These ones:
+
+Given: A = B
+Given: B = C + D
+Therefore: A = C + D
+
+Math is satisfyingly exact. Its givens are exact and its conclusions are airtight.
+
+In math, we call givens “axioms,” and axioms are 100% true. So when we build conclusions out of axioms, we call them “proofs,” which are also 100% true.
+
+Science doesn’t have axioms or proofs, for good reason.
+
+We could have called Newton’s law of universal gravitation a proof—and for a long time, it certainly seemed like one—but then what happens when Einstein comes around and shows that Newton was actually “zoomed in,” like someone calling the Earth flat, and when you zoom way out, you discover that the real law is general relativity and Newton’s law actually stops working under extreme conditions, while general relativity works no matter what. So then, you’d call general relativity a proof instead. Except then what happens when quantum mechanics comes around and shows that general relativity fails to apply on a tiny scale and that a new set of laws is needed to account for those cases.
+
+There are no axioms or proofs in science because nothing is for sure and everything we feel sure about might be disproven. Richard Feynman has said, “Scientific knowledge is a body of statements of varying degrees of certainty—some most unsure, some nearly sure, none absolutely certain.” Instead of proofs, science has theories. Theories are based on hard evidence and treated as truths, but at all times they’re susceptible to being adjusted or disproven as new data emerges.
+
+So in science, it’s more like:
+
+Given (for now): A = B
+Given (for now): B = C + D
+Therefore (for now): A = C + D
+
+In our lives, the only true axiom is “I exist.” Beyond that, nothing is for sure. And for most things in life, we can’t even build a real scientific theory because life doesn’t tend to have exact measurements.
+
+Usually, the best we can do is a strong hunch based on what data we have. And in science, a hunch is called a hypothesis. Which works like this:
+
+Given (it seems, based on what I know): A = B
+Given (it seems, based on what I know): B = C + D
+Therefore (it seems, based on what I know): A = C + D
+
+Hypotheses are built to be tested. Testing a hypothesis can disprove it or strengthen it, and if it passes enough tests, it can be upgraded to a theory.
+
+So after Musk builds his conclusions from first principles, what does he do? He tests the shit out of them, continually, and adjusts them regularly based on what he learns. Let’s go through the whole process to show how:
+
+You begin by reasoning from first principles to A) fill in the Want box, B) fill in the Reality box, C) select a goal from the pool, and D) build a strategy—and then you get to work. You’ve used first principles thinking to decide where to point your power and the most effective way to use it.
+
+But the goal-achievement strategy you came up with was just your first crack. It was a hypothesis, ripe for testing. You test a strategy hypothesis one way: action. You pour your power into the strategy and see what happens. As you do this, data starts flowing in—results, feedback, and new information from the outside world. Certain parts of your strategy hypothesis might be strengthened by this new data, others might be weakened, and new ideas may have sprung to life in your head through the experience—but either way, some adjustment is usually called for:
