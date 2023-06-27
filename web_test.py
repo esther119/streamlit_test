@@ -8,7 +8,6 @@ from langchain.vectorstores import Pinecone
 
 from langchain.chains import ConversationChain
 from langchain.llms import OpenAI
-import pinecone_api
 
 embeddings = OpenAIEmbeddings()
 
@@ -17,7 +16,7 @@ embeddings = OpenAIEmbeddings()
 
 
 pinecone.init(
-    api_key=os.environ['PINECONE_API_KEY'],
+    api_key=st.secrets['pinecone_api_key'],
     environment='asia-southeast1-gcp-free'   
 )
 index_name =  'tim-urban-test'
