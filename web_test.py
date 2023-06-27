@@ -13,11 +13,11 @@ import pinecone_api
 embeddings = OpenAIEmbeddings()
 
 
-pinecone_api_key = pinecone_api.pinecone_api_key
+# pinecone_api_key = pinecone_api.pinecone_api_key
 
 
 pinecone.init(
-    api_key=pinecone_api_key,  
+    api_key=os.environ['PINECONE_API_KEY'],
     environment='asia-southeast1-gcp-free'   
 )
 index_name =  'tim-urban-test'
