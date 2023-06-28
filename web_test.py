@@ -51,13 +51,12 @@ def similarity_search(user_input):
     return docs[0].page_content
 
 def generate_images(user_input):
-    PROMPT = f'Generate a wait but why style simple stick man using a black marker about first principles'
+    PROMPT = f'Draw a stick man about {user_input}, black marker, simple, long stick body, short hand, big round face'
     response = openai.Image.create(
         prompt=PROMPT,
         n=1,
         size="256x256",
     )
-
     return response["data"][0]["url"]
 
 
@@ -89,10 +88,7 @@ if user_input:
         store = similarity_search(user_input)
         response = AI_response_messages(user_input, store, st.secrets['openai_api_key'])
         image_url = generate_images(user_input)
-    st.write("context search: ", store)    
-    # st.image(image)
-    
-    
+    # st.write("context search: ", store)    
     st.session_state.past.append(user_input)
     st.session_state.generated.append([response.content, image_url])
     # st.session_state.generated.append(response.content)
@@ -102,7 +98,7 @@ if st.session_state["generated"]:
     for i in range(len(st.session_state["generated"]) - 1, -1, -1):
         text= st.session_state["generated"][i][0]
         image_url = st.session_state["generated"][i][1]
-        image = f'<img width="100%" height="200" src="{image_url}">'
+        image = f'<img width="256" height="256" src="{image_url}"/>'
         message(text, key=str(i))
-        message(image, key=str(i+1))
+        message(image, allow_html=True)
         message(st.session_state["past"][i], is_user=True, key=str(i) + "_user")
