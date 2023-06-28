@@ -56,7 +56,7 @@ def AI_response_messages(user_input, store, openai_api_key):
     Use the following pieces of context from waitbutwhy to answer the question at the end. 
     If you don't know the answer, just clarify that you are not sure, but this might be how Tim Urban thinks.
     '''
-    engineered_user_input = '''{user_input} within 300 words like waitbutwhy using "you" in a casual language'''    
+    engineered_user_input = f'{user_input} within 300 words like waitbutwhy using "you" in a casual language'
     from langchain.schema import (
         AIMessage,
         HumanMessage,
@@ -65,7 +65,7 @@ def AI_response_messages(user_input, store, openai_api_key):
     from langchain.chat_models import ChatOpenAI
     chat = ChatOpenAI(model_name='gpt-3.5-turbo-16k-0613', openai_api_key=openai_api_key)   
 
-
+    print("engineered_user_input", engineered_user_input)
     messages = [
         SystemMessage(content=template+store),
         HumanMessage(content=engineered_user_input)
@@ -78,7 +78,7 @@ if user_input:
     if user_input:
         store = similarity_search(user_input)
         response = AI_response_messages(user_input, store, st.secrets['openai_api_key'])
-    print(store)
+    st.write("context search: ", store)
     st.session_state.past.append(user_input)
     st.session_state.generated.append(response.content)
 
