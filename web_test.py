@@ -8,6 +8,7 @@ from langchain.vectorstores import Pinecone
 
 from langchain.chains import ConversationChain
 from langchain.llms import OpenAI
+import openai
 
 embeddings = OpenAIEmbeddings(disallowed_special=(), openai_api_key=st.secrets['openai_api_key'])
 
@@ -29,8 +30,8 @@ def load_chain():
 chain = load_chain()
 
 # From here down is all the StreamLit UI.
-st.set_page_config(page_title="LangChain Demo", page_icon=":robot:")
-st.header("LangChain Demo")
+st.set_page_config(page_title="Write like Wait But Why", page_icon=":robot:")
+st.header("Write like Wait But Why")
 
 if "generated" not in st.session_state:
     st.session_state["generated"] = []
@@ -40,7 +41,7 @@ if "past" not in st.session_state:
 
 
 def get_text():
-    input_text = st.text_input("You: ", "Write a blog about first principles", key="input")
+    input_text = st.text_input("Write a wait but why style blog about: ", "first principles", key="input")
     return input_text
 
 user_input = get_text()
@@ -49,6 +50,15 @@ def similarity_search(user_input):
     docs = chain.similarity_search(user_input)
     return docs[0].page_content
 
+def generate_images(user_input):
+    PROMPT = f'Generate a wait but why style simple stick man using a black marker about first principles'
+    response = openai.Image.create(
+        prompt=PROMPT,
+        n=1,
+        size="256x256",
+    )
+
+    return response["data"][0]["url"]
 
 
 def AI_response_messages(user_input, store, openai_api_key):
@@ -56,7 +66,7 @@ def AI_response_messages(user_input, store, openai_api_key):
     Use the following pieces of context from waitbutwhy to answer the question at the end. 
     If you don't know the answer, just clarify that you are not sure, but this might be how Tim Urban thinks.
     '''
-    engineered_user_input = f'{user_input} within 300 words like waitbutwhy using "you" in a casual language'
+    engineered_user_input = f'Write a blog about {user_input} within 300 words like waitbutwhy using "you" in a casual language'
     from langchain.schema import (
         AIMessage,
         HumanMessage,
@@ -78,12 +88,21 @@ if user_input:
     if user_input:
         store = similarity_search(user_input)
         response = AI_response_messages(user_input, store, st.secrets['openai_api_key'])
-    st.write("context search: ", store)
+        image_url = generate_images(user_input)
+    st.write("context search: ", store)    
+    # st.image(image)
+    
+    
     st.session_state.past.append(user_input)
-    st.session_state.generated.append(response.content)
+    st.session_state.generated.append([response.content, image_url])
+    # st.session_state.generated.append(response.content)
 
 if st.session_state["generated"]:
 
     for i in range(len(st.session_state["generated"]) - 1, -1, -1):
-        message(st.session_state["generated"][i], key=str(i))
+        text= st.session_state["generated"][i][0]
+        image_url = st.session_state["generated"][i][1]
+        image = f'<img width="100%" height="200" src="{image_url}">'
+        message(text, key=str(i))
+        message(image, key=str(i+1))
         message(st.session_state["past"][i], is_user=True, key=str(i) + "_user")
