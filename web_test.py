@@ -89,7 +89,7 @@ if user_input:
         response = AI_response_messages(user_input, store, st.secrets['openai_api_key'])
         image_url = generate_images(user_input, st.secrets['openai_api_key'])
     # st.write("context search: ", store)    
-    st.session_state.past.append(user_input)
+    st.session_state.past.append(f'Write a blog about {user_input}')
     st.session_state.generated.append([response.content, image_url])
     # st.session_state.generated.append(response.content)
 
