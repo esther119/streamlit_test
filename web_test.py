@@ -1,14 +1,20 @@
 """Python file to serve as the frontend"""
 import streamlit as st
+from PIL import Image
+
 from streamlit_chat import message
 import pinecone
 import os
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Pinecone
-
 from langchain.chains import ConversationChain
 from langchain.llms import OpenAI
 import openai
+import time
+
+
+
+icon = Image.open('images/wbw.jpeg')
 
 embeddings = OpenAIEmbeddings(disallowed_special=(), openai_api_key=st.secrets['openai_api_key'])
 
@@ -29,8 +35,12 @@ def load_chain():
 chain = load_chain()
 
 # From here down is all the StreamLit UI.
-st.set_page_config(page_title="Write like Wait But Why", page_icon=":robot:")
+st.set_page_config(page_title="Write like Wait But Why", page_icon=icon, layout="wide")
 st.header("Write like Wait But Why")
+open_pic = Image.open('images/balls.png')
+open_pic_resize = open_pic.resize((700, 400))
+st.image(open_pic_resize, caption='AI generation')
+
 
 if "generated" not in st.session_state:
     st.session_state["generated"] = []
@@ -85,13 +95,18 @@ def AI_response_messages(user_input, store, openai_api_key):
 
 if user_input:
     if user_input:
+        with st.spinner("We are thinking hard with Tim's brain..."):
+            time.sleep(7)        
         store = similarity_search(user_input)
         response = AI_response_messages(user_input, store, st.secrets['openai_api_key'])
         image_url = generate_images(user_input, st.secrets['openai_api_key'])
+        # image_url = "https://i1.sndcdn.com/avatars-000172456930-u1912p-t500x500.jpg"
+        # response = "hello"
     # st.write("context search: ", store)    
     st.session_state.past.append(f'Write a blog about {user_input}')
+    # st.session_state.generated.append([response, image_url])
     st.session_state.generated.append([response.content, image_url])
-    # st.session_state.generated.append(response.content)
+
 
 if st.session_state["generated"]:
 
@@ -101,4 +116,4 @@ if st.session_state["generated"]:
         image = f'<img width="256" height="256" src="{image_url}"/>'
         message(text, key=str(i))
         message(image, allow_html=True)
-        message(st.session_state["past"][i], is_user=True, key=str(i) + "_user")
+        message(st.session_state["past"][i], is_user=True, key=str(i) + "_user", avatar_style = 'micah')
