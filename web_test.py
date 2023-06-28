@@ -13,7 +13,6 @@ import openai
 embeddings = OpenAIEmbeddings(disallowed_special=(), openai_api_key=st.secrets['openai_api_key'])
 
 
-
 pinecone.init(
     api_key=st.secrets['pinecone_api_key'],
     environment='asia-southeast1-gcp-free'   
@@ -50,7 +49,8 @@ def similarity_search(user_input):
     docs = chain.similarity_search(user_input)
     return docs[0].page_content
 
-def generate_images(user_input):
+def generate_images(user_input, openai_api_key):
+    openai.api_key = openai_api_key
     PROMPT = f'Draw a stick man about {user_input}, black marker, simple, long stick body, short hand, big round face'
     response = openai.Image.create(
         prompt=PROMPT,
@@ -87,7 +87,7 @@ if user_input:
     if user_input:
         store = similarity_search(user_input)
         response = AI_response_messages(user_input, store, st.secrets['openai_api_key'])
-        image_url = generate_images(user_input)
+        image_url = generate_images(user_input, st.secrets['openai_api_key'])
     # st.write("context search: ", store)    
     st.session_state.past.append(user_input)
     st.session_state.generated.append([response.content, image_url])
