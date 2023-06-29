@@ -1,0 +1,8 @@
+@import url("https://allfont.net/allfont.css?fonts=comic-sans-ms"); 
+
+html, body, [class*="css"] {
+    font-family:  'Comic Sans MS', sans-serif; 
+    /* font-size: 18px;
+    font-weight: 500; */
+    color: #091747;
+}

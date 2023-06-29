@@ -13,7 +13,6 @@ import openai
 import time
 
 
-
 icon = Image.open('images/wbw.jpeg')
 
 embeddings = OpenAIEmbeddings(disallowed_special=(), openai_api_key=st.secrets['openai_api_key'])
@@ -36,6 +35,10 @@ chain = load_chain()
 
 # From here down is all the StreamLit UI.
 st.set_page_config(page_title="Write like Wait But Why", page_icon=icon, layout="wide")
+
+with open( "style.css" ) as css:
+    st.markdown( f'<style>{css.read()}</style>' , unsafe_allow_html= True)
+    
 st.header("Write like Wait But Why")
 open_pic = Image.open('images/balls.png')
 open_pic_resize = open_pic.resize((700, 400))
