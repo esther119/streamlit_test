@@ -34,15 +34,15 @@ def load_chain():
 chain = load_chain()
 
 # From here down is all the StreamLit UI.
-st.set_page_config(page_title="Write like Wait But Why", page_icon=icon, layout="wide")
+st.set_page_config(page_title="waitbutwhy ai", page_icon=icon, layout="wide")
 
 with open( "style.css" ) as css:
     st.markdown( f'<style>{css.read()}</style>' , unsafe_allow_html= True)
-    
-st.header("Write like Wait But Why")
+
+st.header("When I dream to write like wait but why")
 open_pic = Image.open('images/balls.png')
 open_pic_resize = open_pic.resize((700, 400))
-st.image(open_pic_resize, caption='AI generation')
+st.image(open_pic_resize, caption='waitbutwhy.com')
 
 
 if "generated" not in st.session_state:
@@ -103,12 +103,12 @@ if user_input:
         store = similarity_search(user_input)
         response = AI_response_messages(user_input, store, st.secrets['openai_api_key'])
         image_url = generate_images(user_input, st.secrets['openai_api_key'])
-        # image_url = "https://i1.sndcdn.com/avatars-000172456930-u1912p-t500x500.jpg"
-        # response = "hello"
+        image_url = "https://i1.sndcdn.com/avatars-000172456930-u1912p-t500x500.jpg"
+        response = "hello"
     # st.write("context search: ", store)    
     st.session_state.past.append(f'Write a blog about {user_input}')
-    # st.session_state.generated.append([response, image_url])
-    st.session_state.generated.append([response.content, image_url])
+    st.session_state.generated.append([response, image_url])
+    # st.session_state.generated.append([response.content, image_url])
 
 
 if st.session_state["generated"]:
